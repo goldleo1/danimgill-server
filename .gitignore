@@ -1,0 +1,7 @@
+node_modules/
+uploads/
+
+note.md
+src/.env
+*.py
+clear.js

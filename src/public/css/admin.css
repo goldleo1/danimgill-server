@@ -1,0 +1,193 @@
+body {
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    display: flex;
+    width: 1100px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    width: 20%;
+}
+
+header #search_bar {
+    position: relative;
+    height: 50px;
+    width: 75%;
+    margin: 21.44px 0;
+    margin-left: 5%;
+}
+
+header #search_input {
+    width: 100%;
+    height: 100%;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-size: 20;
+    font-weight: 900;
+}
+
+header #search_icon {
+    display: block;
+    content: '';
+    position: absolute;
+    top: 27px;
+    right: 15px;
+    transform: translateY(-50%);
+    height: 20px;
+    width: 20px;
+}
+
+main {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+#report-box {
+    width: 100%;
+    top: 166px;
+    left: 82px;
+    gap: 0px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    height: 100%;
+    border-style: hidden;
+    text-align: center;
+}
+
+thead th {
+    max-height: 1px;
+}
+
+thead tr:nth-child(1),
+tbody tr:nth-child(1) {
+    width: 10%;
+}
+
+thead tr:nth-child(2),
+tbody tr:nth-child(2) {
+    width: 15%;
+}
+
+thead tr:nth-child(3),
+tbody tr:nth-child(3) {
+    width: 15%;
+}
+
+thead tr:nth-child(4),
+tbody tr:nth-child(4) {
+    width: 20%;
+}
+
+thead tr:nth-child(5),
+tbody tr:nth-child(5) {
+    width: 10%;
+}
+
+thead tr:nth-child(6),
+tbody tr:nth-child(6) {
+    width: 40%;
+}
+
+thead td {
+    width: 100%;
+}
+
+tr,
+th,
+td {
+    border: 1px solid black;
+}
+
+th,
+td {
+    padding: 10px 5px;
+}
+
+.report-status-box {
+    display: flex;
+    justify-content: space-around;
+}
+
+.report-status-box div {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.report-status-box div.status-received.now {
+    background-color: #F92F60;
+}
+
+.report-status-box div.status-reported.now {
+    background-color: #FF9500;
+}
+
+.report-status-box div.status-pending.now {
+    background-color: #BCAD6C;
+}
+
+.report-status-box div.status-completed.now {
+    background-color: #2aa434;
+}
+
+.report td.solved {
+    font-size: 20px;
+}
+
+/* 
+form input {
+    margin: 10px;
+    font-size: 18px;
+    line-height: 18px;
+    background-color: inherit;
+    padding: 3px;
+}
+
+.imgBox {
+    display: flex;
+    width: 80%;
+    padding: 8px 10px;
+    border: 1px solid black;
+    font-size: 16px;
+}
+
+.imgBox img {
+    display: block;
+    width: 300px;
+}
+
+.imgBox div {
+    font-weight: 700;
+    padding-left: 10px;
+}
+
+.imgBox .ended {
+    color: #aaa;
+    text-decoration: line-through;
+}
+
+.imgBox .statusBtn {
+    border: none;
+    background-color: inherit;
+    font-size: 20px;
+}
+
+.imgBox .statusBtn::before {
+    content: '⬜';
+}
+
+.imgBox .statusBtn.checked::before {
+    content: '✅';
+} */
